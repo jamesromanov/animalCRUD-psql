@@ -1,0 +1,18 @@
+join - bir qancha turlari bor hisbolanib database uchun table larni qoshish uchun foydalaniladi
+yani bizga foreign key  bilan boglangan tablelarni qoshish uchun ishlatiladi 
+buni asosiy 4 ta turi bor FULL JOIN RIGHT JOIN LEFT JOIN, INNER JOIN 
+
+INNER JOIN - bu foreign key bilan ulangan tablelarni qoshish uchun ishlatiladi yani misol uchun 
+bizda noutbooklar bor lekin sotilmaganlari ham keyin bizda ularning egalari bor bizga faqat solilganlari 
+kerak boladigan bolsa shu inner joindan foydalanamiz
+
+RIGHT JOIN - ong table yan ikkin chi yozilgan tableni ichidagi malumotlariga kora qoshiladi misol uchun 
+bizda noutbooklar bor shun noutbooklarni egasi nomi bilan chiqarish kerak boladigan bolsak bizaga noutbook muhim 
+yani noutbooklarni olmoqchimiz ownerlari muihm emas yani biz birinchi tablega noutbooklar bersan ikkiinchisiga owners table 
+bersak bizga noutbooklarni hammasini olish imkonini beradi 
+
+LEFT JOIN - inner join ga juda oxshash bolib bu chap tomondagi tableni yani birinchi yozilgan tableni malumotlariga kora 
+olib kelish kerak boladi misol uchun bizga ownerlar muhim noutbookllar emas yani noutbook olmagan ownerlarni chiqarmoqchimiz 
+shunda birinchi table ga owners ni yozamiz ikkinchi qoshilayotgan tablega esa noutbooklar table ni yozamiz
+
+FULL JOIN - bu esa ikkala table ni references orqali boglangan bolsa bolmasa ham olib keladi hamma malumotlarini 
